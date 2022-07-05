@@ -1,4 +1,4 @@
-.alrt-wrap[data-theme="bitshift-confirmation"] {
+.alrt-wrap[data-theme="WaveShaper-confirmation"] {
     color: var(--textMain);
     background: var(--bgMainT);
     backdrop-filter: blur(20px);
@@ -14,18 +14,18 @@ div[id*='alrt-main'].alrt-top-center {
     transform: translateX(-50%);
 }
 
-.alrt-wrap[data-theme="bitshift-confirmation"] p {
+.alrt-wrap[data-theme="WaveShaper-confirmation"] p {
     margin: 5px 15px;
     font-size: 15px;
 }
 
-.alrt-wrap[data-theme="bitshift-confirmation"] p i {
+.alrt-wrap[data-theme="WaveShaper-confirmation"] p i {
     font-size: 15px;
     color: var(--textDim);
     margin-right: 5px;
 }
 
-.alrt-wrap[data-theme="bitshift-confirmation"] .alrt-close-button {
+.alrt-wrap[data-theme="WaveShaper-confirmation"] .alrt-close-button {
     height: 30px;
     width: 30px;
     margin: 0;
@@ -42,7 +42,7 @@ div[id*='alrt-main'].alrt-top-center {
     margin-left: 5px;
 }
 
-@keyframes bitshift-top-in {
+@keyframes WaveShaper-top-in {
     100% {
         opacity: 1;
     }
@@ -51,7 +51,7 @@ div[id*='alrt-main'].alrt-top-center {
     }
 }
 
-@keyframes bitshift-top-out {
+@keyframes WaveShaper-top-out {
     0% {
         opacity: 1;
     }
@@ -60,15 +60,15 @@ div[id*='alrt-main'].alrt-top-center {
     }
 }
 
-.alrt-top-left .alrt-wrap[data-theme="bitshift-confirmation"],
-.alrt-top-right .alrt-wrap[data-theme="bitshift-confirmation"],
-.alrt-top-center .alrt-wrap[data-theme="bitshift-confirmation"] {
-    animation-name: bitshift-top-in;
+.alrt-top-left .alrt-wrap[data-theme="WaveShaper-confirmation"],
+.alrt-top-right .alrt-wrap[data-theme="WaveShaper-confirmation"],
+.alrt-top-center .alrt-wrap[data-theme="WaveShaper-confirmation"] {
+    animation-name: WaveShaper-top-in;
     margin-top: 10px;
 }
 
-.alrt-wrap[data-theme="bitshift-confirmation"].alrt-top-out {
-    animation-name: bitshift-top-out !important;
+.alrt-wrap[data-theme="WaveShaper-confirmation"].alrt-top-out {
+    animation-name: WaveShaper-top-out !important;
     animation-duration: 0.4s;
     overflow: hidden;
     animation-fill-mode: forwards;

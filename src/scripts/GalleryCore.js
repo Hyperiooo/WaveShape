@@ -117,7 +117,7 @@ window.onload = function() {
     notify = new Alrt({
         position: "top-center",
         duration: 5000, //default duration
-        theme: "bitshift-confirmation",
+        theme: "WaveShaper-confirmation",
         behavior: "overwrite"
     });
     window.colors = defaultPalettes
@@ -206,7 +206,7 @@ function populatePresets() {
     for (let i = 0; i < presets.length; i++) {
         let preset = presets[i]
         parent.innerHTML += `<button class="popup-preset" onclick="setPreset(${preset[0]}, ${preset[1]}, this)">
-          <i class="ri-file-3-line"></i>
+          <i class="hi-file-line"></i>
           ${preset[2] ? `<h1>${preset[2]}</h1>` : `<h1 style="opacity: 0; visibility: hidden">+</h1>`}
           <h2>${preset[0]} x ${preset[1]}</h2>
         </button>`
@@ -215,7 +215,7 @@ function populatePresets() {
 var projName = "";
 
 function renameProject(el) {
-    if(el.value == "" || el.value == null) {
+    if (el.value == "" || el.value == null) {
         return
     } else {
         projName = el.value;

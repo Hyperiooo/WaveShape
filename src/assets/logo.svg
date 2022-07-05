@@ -1,34 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="186.4" height="186.4" viewBox="0 0 186.376 186.376">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116.7101" height="134.7699" viewBox="0 0 116.7101 134.7699">
   <defs>
-    <linearGradient id="a" x1="40.376" y1="102.403" x2="71.272" y2="126.639" gradientUnits="userSpaceOnUse">
-      <stop offset="0.2" stop-color="#8fffff"/>
-      <stop offset="0.9" stop-color="#4ac3ff"/>
+    <linearGradient id="a" x1="8.03674" y1="10.43388" x2="113.24926" y2="129.51525" gradientUnits="userSpaceOnUse">
+      <stop offset="0.02576" stop-color="#c931ff"/>
+      <stop offset="1" stop-color="#792dff"/>
     </linearGradient>
-    <linearGradient id="b" x1="-6258.37" y1="-2257.776" x2="-6297.459" y2="-2254.041" gradientTransform="translate(-1137.675 -6432.755) rotate(-120)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#50fffa"/>
-      <stop offset="1" stop-color="#3386ff"/>
+    <linearGradient id="b" x1="3.1084" y1="20.87083" x2="35.42571" y2="46.22222" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8f62"/>
+      <stop offset="1" stop-color="#ff20b1"/>
     </linearGradient>
-    <linearGradient id="c" x1="-3831.077" y1="768.906" x2="-3832.378" y2="788.385" gradientTransform="translate(1306.733 -3577.002) rotate(-60)" gradientUnits="userSpaceOnUse">
-      <stop offset="0.2" stop-color="#3e88ff"/>
-      <stop offset="0.9" stop-color="#2741ff"/>
+    <linearGradient id="c" x1="59.17422" y1="30.30502" x2="96.43593" y2="59.53506" xlink:href="#b"/>
+    <linearGradient id="d" x1="22.75701" y1="79.20032" x2="46.23426" y2="97.61711" xlink:href="#b"/>
+    <linearGradient id="e" x1="-11.19307" y1="41.54512" x2="67.65186" y2="124.91506" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0508" stop-color="#ff3e9b"/>
+      <stop offset="0.91066" stop-color="#af15ff"/>
     </linearGradient>
-    <linearGradient id="d" x1="70.27" y1="53.316" x2="134.704" y2="143.792" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#b"/>
-    <linearGradient id="e" x1="73.459" y1="30.913" x2="149.247" y2="90.364" xlink:href="#a"/>
-    <linearGradient id="f" x1="-3774.26" y1="807.072" x2="-3779.797" y2="889.977" gradientTransform="translate(1306.733 -3577.002) rotate(-60)" gradientUnits="userSpaceOnUse">
-      <stop offset="0.1" stop-color="#3e88ff"/>
-      <stop offset="0.6" stop-color="#2741ff"/>
-    </linearGradient>
+    <linearGradient id="f" x1="80.01623" y1="76.47965" x2="106.28358" y2="103.556" xlink:href="#e"/>
+    <linearGradient id="g" x1="16.65986" y1="38.74606" x2="43.78879" y2="88.65457" xlink:href="#a"/>
+    <linearGradient id="h" x1="42.00921" y1="-1.59251" x2="74.33474" y2="23.76533" xlink:href="#b"/>
+    <linearGradient id="i" x1="34.67947" y1="19.39619" x2="56.6225" y2="50.72226" xlink:href="#e"/>
+    <linearGradient id="j" x1="61.28092" y1="15.8871" x2="76.50591" y2="43.17926" xlink:href="#a"/>
+    <linearGradient id="k" x1="62.3681" y1="55.75125" x2="114.98021" y2="115.29856" xlink:href="#a"/>
   </defs>
-  <polygon points="37.4,114.7 56,125.4 74.6,114.7 56,103.9 37.4,114.7" fill="url(#a)"/>
-  <polygon points="56,146.9 56,125.4 37.4,114.7 37.4,136.1 56,146.9" fill="url(#b)"/>
-  <polygon points="56,146.9 74.6,136.1 74.6,114.7 56,125.4 56,146.9" fill="url(#c)"/>
-  <polygon points="130.4,82.4 130.4,146.9 93.2,125.4 74.6,114.7 74.6,50.2 93.2,61 130.4,82.4" fill="url(#d)"/>
-  <polygon points="74.6,50.2 130.4,82.4 149,71.7 93.2,39.5 74.6,50.2" fill="url(#e)"/>
-  <polygon points="130.4,146.9 149,136.1 149,71.7 130.4,82.4 130.4,146.9" fill="url(#f)"/>
-  <polygon points="37.4,114.7 56,125.4 74.6,114.7 56,103.9 37.4,114.7" fill="url(#a)"/>
-  <polygon points="56,146.9 56,125.4 37.4,114.7 37.4,136.1 56,146.9" fill="url(#b)"/>
-  <polygon points="56,146.9 74.6,136.1 74.6,114.7 56,125.4 56,146.9" fill="url(#c)"/>
-  <polygon points="130.4,82.4 130.4,146.9 93.2,125.4 74.6,114.7 74.6,50.2 93.2,61 130.4,82.4" fill="url(#d)"/>
-  <polygon points="74.6,50.2 130.4,82.4 149,71.7 93.2,39.5 74.6,50.2" fill="url(#e)"/>
-  <polygon points="130.4,146.9 149,136.1 149,71.7 130.4,82.4 130.4,146.9" fill="url(#f)"/>
+  <polygon points="97.26 22.46 77.81 33.69 77.81 11.23 58.35 0 38.9 11.23 38.9 33.69 19.45 22.46 0 33.69 0 101.08 19.45 112.31 58.35 134.77 77.81 123.54 77.81 101.08 97.26 112.31 116.71 101.08 116.71 33.69 97.26 22.46" style="fill: url(#a)"/>
+  <g>
+    <polygon points="38.9 33.69 19.45 44.92 0 33.69 19.45 22.46 38.9 33.69" style="fill: url(#b)"/>
+    <polygon points="116.71 33.69 77.81 56.15 58.35 67.38 38.9 56.15 58.35 44.92 77.81 33.69 97.26 22.46 116.71 33.69" style="fill: url(#c)"/>
+    <polygon points="38.9 78.62 38.9 101.08 19.45 89.85 38.9 78.62" style="fill: url(#d)"/>
+    <polygon points="58.35 67.38 58.35 134.77 19.45 112.31 0 101.08 0 33.69 19.45 44.92 19.45 89.85 38.9 101.08 38.9 56.15 58.35 67.38" style="fill: url(#e)"/>
+    <polygon points="97.26 67.38 97.26 112.31 77.81 101.08 77.81 78.62 97.26 67.38" style="fill: url(#f)"/>
+    <polygon points="38.9 33.69 38.9 78.62 19.45 89.85 19.45 44.92 38.9 33.69" style="fill: url(#g)"/>
+    <polygon points="77.81 11.23 58.35 22.46 38.9 11.23 58.35 0 77.81 11.23" style="fill: url(#h)"/>
+    <polygon points="58.35 22.46 58.35 44.92 38.9 56.15 38.9 11.23 58.35 22.46" style="fill: url(#i)"/>
+    <polygon points="77.81 11.23 77.81 33.69 58.35 44.92 58.35 22.46 77.81 11.23" style="fill: url(#j)"/>
+    <polygon points="116.71 33.69 116.71 101.08 97.26 112.31 97.26 67.38 77.81 78.62 77.81 123.54 58.35 134.77 58.35 67.38 77.81 56.15 116.71 33.69" style="fill: url(#k)"/>
+  </g>
 </svg>

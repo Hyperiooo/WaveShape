@@ -13,7 +13,6 @@ let debug;
 
 var Themes = {
     light: "ui-theme-light",
-    gray: "ui-theme-gray",
     dark: "ui-theme-dark",
     black: "ui-theme-black"
 }

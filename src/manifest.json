@@ -1,6 +1,6 @@
 {
-    "name": "BitShift",
-    "short_name": "BitShift",
+    "name": "WaveShaper",
+    "short_name": "WaveShaper",
     "start_url": "index.html",
     "display": "standalone",
     "orientation": "landscape-primary",

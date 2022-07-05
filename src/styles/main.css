@@ -31,8 +31,8 @@ html {
     --bgDarkT: #0f1216e3;
     --textMain: #bcbec4;
     --textDim: #a8abb0;
-    --important: #0034ab;
-    --importantT: #0034aba9;
+    --important: #ff2ea8;
+    --importantT: #ff2ea8a9;
     --error: #e0002c;
     --errorT: #e0002ca9;
     --importantText: #ffffff;
@@ -51,8 +51,8 @@ html {
     --bgDarkT: #131214e3;
     --textMain: #ffffff;
     --textDim: #cacaca;
-    --important: #2741ff;
-    --importantT: #2740ffa9;
+    --important: #ff2ea8;
+    --importantT: #ff2ea8a9;
     --error: #ff163d;
     --errorT: #ff163da9;
     --importantText: #ffffff;
@@ -60,26 +60,6 @@ html {
     --scrollHover: #3B3A3D;
     --toolBarDim: #49484a;
     --toolBarHover: #7f7f80;
-}
-
-.ui-theme-gray {
-    --bgMain: #6c6e71;
-    --bgMainT: #6c6e71e3;
-    --canvasBg: #86888c;
-    --bgLight: #797b7e;
-    --bgDark: #5e6064;
-    --bgDarkT: #5e6064e3;
-    --textMain: #e8ebee;
-    --textDim: #dadce0;
-    --important: #00beee;
-    --importantT: #00beeea9;
-    --error: #ffaa3a;
-    --errorT: #ffaa3aa9;
-    --importantText: #ffffff;
-    --scrollTrack: #606165;
-    --scrollHover: #949699;
-    --toolBarDim: #3c3d40;
-    --toolBarHover: #1b1c1f;
 }
 
 .ui-theme-light {
@@ -91,8 +71,8 @@ html {
     --bgDarkT: #eef0f5d5;
     --textMain: #0b0c1a;
     --textDim: #1b1c2e;
-    --important: #3e88ff;
-    --importantT: #3e88ffa9;
+    --important: #ff2ea8;
+    --importantT: #ff2ea8a9;
     --error: #ff2d3e;
     --errorT: #ff2d3ea9;
     --importantText: #ffffff;
@@ -822,6 +802,26 @@ canvas * {
     height: 36px;
 }
 
+#topbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: text;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.1s background, 0.3s color, 0.3s fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    outline: none;
+    border: none;
+    color: var(--toolBarHover);
+    text-align: center;
+    background: var(--bgMain);
+    height: 36px;
+}
+
 #topbar-left {
     display: inline-flex;
     cursor: text;
@@ -841,6 +841,7 @@ canvas * {
     height: 36px;
 }
 
+#topbar-center .toolbar-divider,
 #topbar-right .toolbar-divider,
 #topbar-left .toolbar-divider {
     position: relative;
@@ -865,11 +866,13 @@ canvas * {
     color: var(--important);
 }
 
+#topbar-center .item,
 #topbar-right .item,
 #topbar-left .item {
     padding: 12px;
 }
 
+#topbar-center .item i,
 #topbar-right .item i,
 #topbar-left .item i {
     font-size: 18px;
@@ -1798,7 +1801,7 @@ div[id^='alrt-main'] {
 }
 
 #topbar-logo {
-    width: 50px;
+    width: 33px;
     position: absolute;
     top: 50%;
     left: 50%;
