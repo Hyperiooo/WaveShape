@@ -1,6 +1,6 @@
 {
-    "name": "WaveShaper",
-    "short_name": "WaveShaper",
+    "name": "WaveShape",
+    "short_name": "WaveShape",
     "start_url": "index.html",
     "display": "standalone",
     "orientation": "landscape-primary",
