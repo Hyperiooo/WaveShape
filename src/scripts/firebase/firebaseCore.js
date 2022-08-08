@@ -1,5 +1,5 @@
 import { initAuth, googleSignIn, signOutUser, attemptSignIn, authState, initPersist, setAuthStateHandler } from "./auth/auth.js"
-import { initFirestore, getCities } from "./firestore/firestore.js"
+import { initFirestore, getCities, checkNewUserId, setupNewAccount } from "./firestore/firestore.js"
 
 import { app } from "./FirebaseInitialization.js"
 
@@ -35,6 +35,13 @@ export function authChangeHandler(signedIn, user) {
         userObj = user
         console.log(user)
         console.log(window.location)
+        var userExists = await checkNewUserId(userId)
+        console.log(userExists)
+        if (!userExists) isNewAccount();
+        function isNewAccount() {
+            console.log("this is a new account")
+            setupNewAccount(userId, userObj)
+        }
         if (document.getElementById("accountName")) {
             document.getElementById("accountName").innerHTML = user.displayName
         }
