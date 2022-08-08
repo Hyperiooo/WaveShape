@@ -7,7 +7,7 @@ import {
 	initPersist,
 	setAuthStateHandler,
 } from "./auth/auth.js";
-import { initFirestore, addDummyData } from "./firestore/firestore.js";
+import { initFirestore } from "./firestore/firestore.js";
 
 import { app } from "./FirebaseInitialization.js";
 
@@ -26,7 +26,7 @@ window.addEventListener("pagehide", (e) => {
 });
 async function beforePageUnload() {
 	console.log(window.a);
-	await addDummyData(authState().uid);
+	//await addDummyData(authState().uid);
 }
 
 async function pageLoad(e) {}
